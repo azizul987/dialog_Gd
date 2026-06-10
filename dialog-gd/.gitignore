@@ -1,5 +1,49 @@
-# Godot 4+ specific ignores
+# Godot 4 .gitignore
+
+# Godot-specific ignores
 .godot/
-/android/
-desktop.ini
+*.uid
+
+# Exported projects
+*.exe
+*.x86_64
+*.x86_32
+*.arm64
+*.universal
+*.apk
+*.aab
+*.ipa
+*.dmg
+*.zip
+
+# Export presets (optional, uncomment jika tidak ingin di-track)
+# export_presets.cfg
+
+# Mono / C# build artifacts
+.mono/
+data_*/
+mono_crash.*.json
+
+# Editor-specific directories
+.import/
+
+# macOS
+.DS_Store
+*.dSYM
+
+# Windows
+Thumbs.db
 Desktop.ini
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Temp & log files
+*.log
+*.tmp
