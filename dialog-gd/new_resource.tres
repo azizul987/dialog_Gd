@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="data_dialog" format=3 uid="uid://cs3eanupsykbd"]
+
+[ext_resource type="Script" uid="uid://cslf535jo7e61" path="res://Skrip/node_dialog.gd" id="1_1ivwu"]
+[ext_resource type="Script" uid="uid://durvjq1cunkmc" path="res://Skrip/pilihan_dialog.gd" id="2_3gp3i"]
+[ext_resource type="Script" uid="uid://ydtrl6olsflf" path="res://Skrip/data_dialog.gd" id="2_uauhc"]
+
+[sub_resource type="Resource" id="Resource_xonew"]
+script = ExtResource("2_3gp3i")
+text = "Aku Makan"
+metadata/_custom_type_script = "uid://durvjq1cunkmc"
+
+[sub_resource type="Resource" id="Resource_y3mkl"]
+script = ExtResource("1_1ivwu")
+pilihan = Array[ExtResource("2_3gp3i")]([SubResource("Resource_xonew")])
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_ihbpk"]
+script = ExtResource("1_1ivwu")
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[resource]
+script = ExtResource("2_uauhc")
+nodes = Array[ExtResource("1_1ivwu")]([SubResource("Resource_y3mkl"), SubResource("Resource_ihbpk")])
+metadata/_custom_type_script = "uid://ydtrl6olsflf"
