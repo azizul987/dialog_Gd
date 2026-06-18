@@ -11,12 +11,22 @@ config_version=5
 [application]
 
 config/name="Dialog_Gd"
+run/main_scene="uid://d3ad4hlmf1s2p"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=160
+window/size/viewport_height=144
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
 
 [file_customization]
 
 folder_colors={
+"res://Asset/": "purple",
+"res://Asset/Char/": "green",
 "res://Skrip/": "red"
 }
 
@@ -26,4 +36,5 @@ folder_colors={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
