@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb7fylgeq1mkd"
-path="res://.godot/imported/4_Crops_16x16.png-589e206d04feb6062ba0fcc4c56034e0.ctex"
+uid="uid://bnxhhr6uwvqvy"
+path="res://.godot/imported/32x32 textures (24).png-8f650b4cf9e9cbb648ecd355629cf7e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Asset/16x16/4_Crops_16x16.png"
-dest_files=["res://.godot/imported/4_Crops_16x16.png-589e206d04feb6062ba0fcc4c56034e0.ctex"]
+source_file="res://Asset/Light/32x32 textures (24).png"
+dest_files=["res://.godot/imported/32x32 textures (24).png-8f650b4cf9e9cbb648ecd355629cf7e5.ctex"]
 
 [params]
 
