@@ -1,0 +1,153 @@
+[gd_resource type="Resource" script_class="data_dialog" format=3 uid="uid://cs3eanupsykbd"]
+
+[ext_resource type="Script" uid="uid://cslf535jo7e61" path="res://Skrip/node_dialog.gd" id="1_tfngy"]
+[ext_resource type="Script" uid="uid://durvjq1cunkmc" path="res://Skrip/pilihan_dialog.gd" id="2_15pl0"]
+[ext_resource type="Script" uid="uid://ydtrl6olsflf" path="res://Skrip/data_dialog.gd" id="3_wa4n8"]
+
+[sub_resource type="Resource" id="Resource_dmoj3"]
+script = ExtResource("1_tfngy")
+id = "start"
+penutur = "Luffy"
+narasi = "Yare yare, oi jok!!"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_15pl0"]
+script = ExtResource("1_tfngy")
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_ktkp5"]
+script = ExtResource("1_tfngy")
+id = "wifi"
+penutur = "Luffy"
+narasi = "Bagus ya sinyal WiFi di sini. Tanggal berapa dah ke sini?"
+id_selanjutnya = "jawab_aku"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_pberw"]
+script = ExtResource("1_tfngy")
+id = "jawab_aku"
+penutur = "Aster"
+narasi = "Udah tiga hari yang lalu. Naik bus angkut barang, hari Kamis. Kamu?"
+id_selanjutnya = "cerita_luffy"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_4slod"]
+script = ExtResource("1_tfngy")
+id = "cerita_luffy"
+penutur = "Luffy"
+narasi = "Aku dianter bapakku. Lama bro, delapan jam di jalan. Untung gak ada polisi, wkwkwk."
+id_selanjutnya = "narasi_latar"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_j8v5l"]
+script = ExtResource("1_tfngy")
+id = "narasi_latar"
+penutur = "Aster"
+narasi = "(Aku terdiam sebentar. Entah kenapa, dari cara dia bicara, aku merasa kami datang dari latar yang tidak jauh berbeda.)"
+id_selanjutnya = "cut_bersuara"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_0f20n"]
+script = ExtResource("1_tfngy")
+id = "cut_bersuara"
+penutur = "Cut"
+narasi = " Aku udah datang dari lima hari yang lalu loh."
+id_selanjutnya = "luffy_menoleh"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_lq4mh"]
+script = ExtResource("1_tfngy")
+id = "luffy_menoleh"
+narasi = "Luffy langsung menoleh."
+id_selanjutnya = "luffy_mengejek"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_i4jfa"]
+script = ExtResource("1_tfngy")
+id = "luffy_mengejek"
+penutur = "Luffy"
+narasi = "Lah, kan baru kemarin sampai. Pikun cok. Kebanyakan nyoli jir."
+id_selanjutnya = "aku_menimpali"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_i4uvd"]
+script = ExtResource("1_tfngy")
+id = "aku_menimpali"
+penutur = "Aster"
+narasi = "Kayaknya kena brain fog kau tuh"
+id_selanjutnya = "suasana_senyap_1"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_s02vs"]
+script = ExtResource("1_tfngy")
+id = "suasana_senyap_1"
+narasi = "Setelah itu suasana kembali senyap. Masing-masing sibuk dengan dunianya sendiri"
+id_selanjutnya = "suasana_senyap_2"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_tfngy"]
+script = ExtResource("1_tfngy")
+id = "suasana_senyap_2"
+narasi = "Aku dengan laptop, Cut dengan pikirannya yang entah sedang bisnis apa, dan Luffy dengan kompor listrik yang baru saja ia bawa."
+id_selanjutnya = "hening_pecah"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_677yn"]
+script = ExtResource("1_tfngy")
+id = "hening_pecah"
+narasi = "Beberapa menit kemudian, keheningan itu dipecah oleh Luffy.Beberapa menit kemudian, keheningan itu dipecah oleh Luffy."
+id_selanjutnya = "luffy_ajak_keluar"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_n14th"]
+script = ExtResource("1_tfngy")
+id = "luffy_ajak_keluar"
+penutur = "Luffy"
+narasi = "Kedepan yuk, nyari makan. Sekalian stok lauk. Aku ada kompor listrik nih.Kedepan yuk, nyari makan. Sekalian stok lauk. Aku ada kompor listrik nih."
+id_selanjutnya = "cut_menolak"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_jliwf"]
+script = ExtResource("1_tfngy")
+id = "cut_menolak"
+penutur = "Cut "
+narasi = "Geloo, jauh jir jaraknya. Kalau jalan perlu tiga puluh menit. Dah tutup nih asrama kalau nak balik."
+id_selanjutnya = "narasi_laptop"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_dokg5"]
+script = ExtResource("1_tfngy")
+id = "narasi_laptop"
+penutur = "Aster"
+narasi = "Aku menatap layar laptop, lalu melihat mereka berdua."
+id_selanjutnya = "narasi_malam"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[sub_resource type="Resource" id="Resource_wbm1p"]
+script = ExtResource("2_15pl0")
+text = " Keluar dan Jalan ke Pemukiman"
+id_selanjutnya = "DiTepiPagar"
+metadata/_custom_type_script = "uid://durvjq1cunkmc"
+
+[sub_resource type="Resource" id="Resource_yo2ss"]
+script = ExtResource("2_15pl0")
+text = "Tetap di Depan Laptop"
+id_selanjutnya = "TetapDiLaptop"
+metadata/_custom_type_script = "uid://durvjq1cunkmc"
+
+[sub_resource type="Resource" id="Resource_bune7"]
+script = ExtResource("2_15pl0")
+text = "Ajak Masak Mie Instan di Kamar"
+id_selanjutnya = "MieInstant"
+metadata/_custom_type_script = "uid://durvjq1cunkmc"
+
+[sub_resource type="Resource" id="Resource_gm883"]
+script = ExtResource("1_tfngy")
+id = "narasi_malam"
+pilihan = Array[ExtResource("2_15pl0")]([SubResource("Resource_wbm1p"), SubResource("Resource_yo2ss"), SubResource("Resource_bune7")])
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
+[resource]
+script = ExtResource("3_wa4n8")
+nodes = Array[ExtResource("1_tfngy")]([SubResource("Resource_dmoj3"), SubResource("Resource_15pl0"), SubResource("Resource_ktkp5"), SubResource("Resource_pberw"), SubResource("Resource_4slod"), SubResource("Resource_j8v5l"), SubResource("Resource_0f20n"), SubResource("Resource_lq4mh"), SubResource("Resource_i4jfa"), SubResource("Resource_i4uvd"), SubResource("Resource_s02vs"), SubResource("Resource_tfngy"), SubResource("Resource_677yn"), SubResource("Resource_n14th"), SubResource("Resource_jliwf"), SubResource("Resource_dokg5"), SubResource("Resource_gm883")])
+metadata/_custom_type_script = "uid://ydtrl6olsflf"

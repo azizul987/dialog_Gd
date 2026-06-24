@@ -1,24 +1,24 @@
 [gd_scene format=4 uid="uid://2u4tcu2i8bso"]
 
-[ext_resource type="Texture2D" uid="uid://bnxhhr6uwvqvy" path="res://Asset/Light/32x32 textures (24).png" id="1_bkhwi"]
-[ext_resource type="Script" uid="uid://dvfqruyktsu8d" path="res://Skrip/scene_transisi.gd" id="1_hrugb"]
-[ext_resource type="Script" uid="uid://c74kwicycurhj" path="res://Skrip/light_flicker.gd" id="2_qx1o2"]
-[ext_resource type="Texture2D" uid="uid://dqer4k5vw8d8a" path="res://Asset/16x16/3_Props_and_Buildings_16x16.png" id="4_02iv4"]
-[ext_resource type="Texture2D" uid="uid://dqku7at6f6sb7" path="res://Asset/16x16/tembok .png" id="5_tsonk"]
-[ext_resource type="Texture2D" uid="uid://di84q84ys3cwo" path="res://Asset/16x16/Pintu.png" id="6_yndua"]
-[ext_resource type="Texture2D" uid="uid://d16yjqcii1ham" path="res://Asset/16x16/cabinets_LRK.png" id="9_exvih"]
-[ext_resource type="Texture2D" uid="uid://dr648dlwld0v1" path="res://Asset/16x16/New Piskel.png" id="10_jime5"]
-[ext_resource type="Texture2D" uid="uid://kmhp2bbs42o5" path="res://Asset/16x16/decorations_LRK.png" id="10_o57ar"]
-[ext_resource type="Texture2D" uid="uid://cigk8qiss1pfi" path="res://Asset/16x16/livingroom_LRK.png" id="11_7w3nu"]
-[ext_resource type="Texture2D" uid="uid://y0wo57kf1025" path="res://Asset/16x16/Kasur.png" id="12_8d77g"]
-[ext_resource type="Texture2D" uid="uid://dguns32v1n32a" path="res://Asset/16x16/keyboardd.png" id="13_ivep8"]
-[ext_resource type="Script" uid="uid://dfnkce773f2ar" path="res://Skrip/StoryLabel.gd" id="14_0q3fq"]
-[ext_resource type="Texture2D" uid="uid://jwv22wmx3hkk" path="res://Asset/16x16/Bantal.png" id="14_v6aun"]
-[ext_resource type="Resource" uid="uid://snqum8koiqul" path="res://Res/Start.tres" id="16_hrugb"]
-[ext_resource type="FontFile" uid="uid://bgj0m7o0vpyqi" path="res://Asset/Font/BPdots/BPdotsSquareBold.otf" id="16_qx1o2"]
+[ext_resource type="Script" uid="uid://dvfqruyktsu8d" path="res://Skrip/scene_transisi.gd" id="1_pny3a"]
+[ext_resource type="Texture2D" uid="uid://bnxhhr6uwvqvy" path="res://Asset/Light/32x32 textures (24).png" id="2_sqb0s"]
+[ext_resource type="Script" uid="uid://c74kwicycurhj" path="res://Skrip/light_flicker.gd" id="3_vnnfs"]
+[ext_resource type="Texture2D" uid="uid://dqer4k5vw8d8a" path="res://Asset/16x16/3_Props_and_Buildings_16x16.png" id="4_2bt1l"]
+[ext_resource type="Texture2D" uid="uid://dqku7at6f6sb7" path="res://Asset/16x16/tembok .png" id="5_2mpw0"]
+[ext_resource type="Texture2D" uid="uid://di84q84ys3cwo" path="res://Asset/16x16/Pintu.png" id="6_g2lr6"]
+[ext_resource type="Texture2D" uid="uid://d16yjqcii1ham" path="res://Asset/16x16/cabinets_LRK.png" id="7_qt31k"]
+[ext_resource type="Texture2D" uid="uid://kmhp2bbs42o5" path="res://Asset/16x16/decorations_LRK.png" id="8_b0c0i"]
+[ext_resource type="Texture2D" uid="uid://cigk8qiss1pfi" path="res://Asset/16x16/livingroom_LRK.png" id="9_d3cl6"]
+[ext_resource type="Texture2D" uid="uid://y0wo57kf1025" path="res://Asset/16x16/Kasur.png" id="10_ma03c"]
+[ext_resource type="Texture2D" uid="uid://dguns32v1n32a" path="res://Asset/16x16/keyboardd.png" id="11_onafn"]
+[ext_resource type="Texture2D" uid="uid://jwv22wmx3hkk" path="res://Asset/16x16/Bantal.png" id="12_ojaqp"]
+[ext_resource type="Texture2D" uid="uid://dr648dlwld0v1" path="res://Asset/16x16/New Piskel.png" id="13_ewuc3"]
+[ext_resource type="FontFile" uid="uid://bgj0m7o0vpyqi" path="res://Asset/Font/BPdots/BPdotsSquareBold.otf" id="14_bar40"]
+[ext_resource type="Script" uid="uid://dfnkce773f2ar" path="res://Skrip/StoryLabel.gd" id="15_8tpc0"]
+[ext_resource type="Resource" uid="uid://snqum8koiqul" path="res://Res/Start.tres" id="16_d46fr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ljas1"]
-texture = ExtResource("4_02iv4")
+texture = ExtResource("4_2bt1l")
 0:33/0 = 0
 1:33/0 = 0
 2:33/0 = 0
@@ -1929,7 +1929,7 @@ texture = ExtResource("4_02iv4")
 sources/1 = SubResource("TileSetAtlasSource_ljas1")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vlna0"]
-texture = ExtResource("5_tsonk")
+texture = ExtResource("5_2mpw0")
 1:0/0 = 0
 1:0/0/z_index = -1
 1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -1947,7 +1947,7 @@ texture = ExtResource("5_tsonk")
 4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pw6a6"]
-texture = ExtResource("6_yndua")
+texture = ExtResource("6_g2lr6")
 0:0/0 = 0
 0:0/0/z_index = -1
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -1958,7 +1958,7 @@ sources/0 = SubResource("TileSetAtlasSource_vlna0")
 sources/1 = SubResource("TileSetAtlasSource_pw6a6")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l5wjg"]
-texture = ExtResource("9_exvih")
+texture = ExtResource("7_qt31k")
 9:1/0 = 0
 9:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 13:1/0 = 0
@@ -2389,7 +2389,7 @@ texture = ExtResource("9_exvih")
 39:23/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4fdt2"]
-texture = ExtResource("10_o57ar")
+texture = ExtResource("8_b0c0i")
 3:0/0 = 0
 1:1/0 = 0
 3:1/0 = 0
@@ -2431,7 +2431,7 @@ texture = ExtResource("10_o57ar")
 10:8/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qf2a1"]
-texture = ExtResource("11_7w3nu")
+texture = ExtResource("9_d3cl6")
 9:1/0 = 0
 10:1/0 = 0
 12:1/0 = 0
@@ -2830,7 +2830,7 @@ texture = ExtResource("11_7w3nu")
 24:24/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_87d8v"]
-texture = ExtResource("12_8d77g")
+texture = ExtResource("10_ma03c")
 0:0/0 = 0
 0:0/0/z_index = -1
 1:0/0 = 0
@@ -2856,7 +2856,7 @@ sources/6 = SubResource("TileSetAtlasSource_qf2a1")
 sources/7 = SubResource("TileSetAtlasSource_87d8v")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nspnq"]
-texture = ExtResource("11_7w3nu")
+texture = ExtResource("9_d3cl6")
 9:1/0 = 0
 10:1/0 = 0
 12:1/0 = 0
@@ -3247,12 +3247,12 @@ texture = ExtResource("11_7w3nu")
 24:24/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kj3qe"]
-texture = ExtResource("13_ivep8")
+texture = ExtResource("11_onafn")
 0:0/0 = 0
 0:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7sehu"]
-texture = ExtResource("14_v6aun")
+texture = ExtResource("12_ojaqp")
 0:0/0 = 0
 0:0/0/z_index = -1
 0:1/0 = 0
@@ -3264,19 +3264,19 @@ sources/1 = SubResource("TileSetAtlasSource_kj3qe")
 sources/2 = SubResource("TileSetAtlasSource_7sehu")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0q3fq"]
-atlas = ExtResource("10_jime5")
+atlas = ExtResource("13_ewuc3")
 region = Rect2(0, 0, 16, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bkhwi"]
-atlas = ExtResource("10_jime5")
+atlas = ExtResource("13_ewuc3")
 region = Rect2(16, 0, 16, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qx1o2"]
-atlas = ExtResource("10_jime5")
+atlas = ExtResource("13_ewuc3")
 region = Rect2(32, 0, 16, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hrugb"]
-atlas = ExtResource("10_jime5")
+atlas = ExtResource("13_ewuc3")
 region = Rect2(0, 32, 16, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_02iv4"]
@@ -3401,7 +3401,7 @@ shader_parameter/chromatic_strength = 0.45
 shader_parameter/sharpen_strength = 0.18
 
 [node name="scene_transisi" type="Node2D" unique_id=774046672]
-script = ExtResource("1_hrugb")
+script = ExtResource("1_pny3a")
 next_scene_path = "uid://d3ad4hlmf1s2p"
 transition_duration = 2.0
 
@@ -3412,8 +3412,8 @@ position = Vector2(-19.999985, -82)
 scale = Vector2(6.9062495, 6.9062495)
 color = Color(0.8879595, 0.90798235, 0.8995706, 1)
 energy = 0.5
-texture = ExtResource("1_bkhwi")
-script = ExtResource("2_qx1o2")
+texture = ExtResource("2_sqb0s")
+script = ExtResource("3_vnnfs")
 
 [node name="Layer_Bawah" type="TileMapLayer" parent="world" unique_id=528079121]
 z_index = -2
@@ -3465,12 +3465,12 @@ offset_left = -101.0
 offset_top = -111.0
 offset_right = -11.0
 offset_bottom = 487.0
-theme_override_fonts/font = ExtResource("16_qx1o2")
+theme_override_fonts/font = ExtResource("14_bar40")
 theme_override_font_sizes/font_size = 10
 text = "ini dialog"
 autowrap_mode = 2
-script = ExtResource("14_0q3fq")
-story_text = ExtResource("16_hrugb")
+script = ExtResource("15_8tpc0")
+story_text = ExtResource("16_d46fr")
 
 [node name="FadeLayer" type="CanvasLayer" parent="." unique_id=2008810017]
 

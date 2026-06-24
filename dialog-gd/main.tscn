@@ -12,10 +12,10 @@
 [ext_resource type="FontFile" uid="uid://chwlq44grmdae" path="res://Asset/Font/BPdots/BPdotsUnicaseSquareBold.otf" id="6_d13ii"]
 [ext_resource type="Texture2D" uid="uid://di84q84ys3cwo" path="res://Asset/16x16/Pintu.png" id="9_2cqfq"]
 [ext_resource type="Texture2D" uid="uid://d16yjqcii1ham" path="res://Asset/16x16/cabinets_LRK.png" id="9_w48qg"]
+[ext_resource type="SpriteFrames" uid="uid://bteiq4rqcpass" path="res://Animation/Aster.tres" id="10_1u8w0"]
 [ext_resource type="Texture2D" uid="uid://kmhp2bbs42o5" path="res://Asset/16x16/decorations_LRK.png" id="10_vivmo"]
 [ext_resource type="Texture2D" uid="uid://dd4mvqymm0jw" path="res://Asset/Icons/Sprite-0001.png" id="11_ryguw"]
 [ext_resource type="SpriteFrames" uid="uid://8mles5a0pyxe" path="res://Animation/Luffy.tres" id="11_yaehf"]
-[ext_resource type="PackedScene" uid="uid://cy21ylw8dolib" path="res://Char_Sccene/aster.tscn" id="12_074og"]
 [ext_resource type="Texture2D" uid="uid://y0wo57kf1025" path="res://Asset/16x16/Kasur.png" id="12_w48qg"]
 [ext_resource type="Texture2D" uid="uid://dguns32v1n32a" path="res://Asset/16x16/keyboardd.png" id="13_2cqfq"]
 [ext_resource type="Texture2D" uid="uid://cigk8qiss1pfi" path="res://Asset/16x16/livingroom_LRK.png" id="13_074og"]
@@ -23,6 +23,7 @@
 [ext_resource type="Texture2D" uid="uid://jwv22wmx3hkk" path="res://Asset/16x16/Bantal.png" id="17_yaehf"]
 [ext_resource type="Script" uid="uid://bm2r0v4knw7y6" path="res://Skrip/dialog_manager.gd" id="19_cegan"]
 [ext_resource type="Script" uid="uid://chpqv5sfeuug0" path="res://Skrip/cutscene_controller.gd" id="20_82xsv"]
+[ext_resource type="Resource" uid="uid://cs3eanupsykbd" path="res://Res/Dialog_Awal.tres" id="23_1u8w0"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_1bvp3"]
 shader = ExtResource("3_h2yge")
@@ -49,6 +50,9 @@ corner_radius_top_right = 3
 corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 corner_detail = 5
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hreuj"]
+radius = 9.0
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_82xsv"]
 radius = 4.0
@@ -3385,6 +3389,7 @@ vertical_alignment = 1
 autowrap_mode = 1
 
 [node name="Container" type="VBoxContainer" parent="ui/Dialog" unique_id=1653675699]
+visible = false
 layout_mode = 0
 offset_left = 107.0
 offset_top = 230.0
@@ -3419,8 +3424,21 @@ energy = 0.5
 texture = ExtResource("5_kek77")
 script = ExtResource("6_4c57u")
 
-[node name="Aster" parent="world" unique_id=2028568727 instance=ExtResource("12_074og")]
+[node name="Aster" type="CharacterBody2D" parent="world" unique_id=2028568727]
 position = Vector2(3, -29)
+script = ExtResource("13_vivmo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="world/Aster" unique_id=2140560177]
+sprite_frames = ExtResource("10_1u8w0")
+animation = &"Walk_Bootom"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="world/Aster" unique_id=914500602]
+shape = SubResource("CircleShape2D_hreuj")
+
+[node name="TandaDialog" type="Sprite2D" parent="world/Aster" unique_id=1500566259]
+visible = false
+position = Vector2(0, -19)
+texture = ExtResource("11_ryguw")
 
 [node name="Luffy" type="CharacterBody2D" parent="world" unique_id=1170132420]
 position = Vector2(-341, 126)
@@ -3439,7 +3457,7 @@ autoplay = "Idle_Bootom"
 position = Vector2(0, 4)
 shape = SubResource("CapsuleShape2D_82xsv")
 
-[node name="alert" type="Sprite2D" parent="world/Luffy" unique_id=326242234]
+[node name="TandaDialog" type="Sprite2D" parent="world/Luffy" unique_id=326242234]
 visible = false
 position = Vector2(0, -16)
 texture = ExtResource("11_ryguw")
@@ -3466,8 +3484,7 @@ tile_set = SubResource("TileSet_cegan")
 
 [node name="dialogmanager" type="Node" parent="." unique_id=343555523]
 script = ExtResource("19_cegan")
-
-[node name="marker" type="Node2D" parent="." unique_id=705235062]
+dialog_data = ExtResource("23_1u8w0")
 
 [node name="CutsceneController" type="Node" parent="." unique_id=96127451]
 script = ExtResource("20_82xsv")
@@ -3479,3 +3496,11 @@ position = Vector2(-83, 128)
 
 [node name="Titik2" type="Marker2D" parent="Luffy titik" unique_id=1193002335]
 position = Vector2(-81, 67)
+
+[node name="Aster Node" type="Node" parent="." unique_id=1214973273]
+
+[node name="marker" type="Node2D" parent="Aster Node" unique_id=705235062]
+position = Vector2(-34, -56)
+
+[node name="marker2" type="Node2D" parent="Aster Node" unique_id=1536317188]
+position = Vector2(-46, 43)
