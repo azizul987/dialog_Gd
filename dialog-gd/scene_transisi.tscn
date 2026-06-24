@@ -1,61 +1,24 @@
-[gd_scene format=4 uid="uid://d3ad4hlmf1s2p"]
+[gd_scene format=4 uid="uid://2u4tcu2i8bso"]
 
-[ext_resource type="Texture2D" uid="uid://dqer4k5vw8d8a" path="res://Asset/16x16/3_Props_and_Buildings_16x16.png" id="1_0xm2m"]
-[ext_resource type="Script" uid="uid://27pyh0lub4fy" path="res://Skrip/start.gd" id="1_getpj"]
-[ext_resource type="Texture2D" uid="uid://dqku7at6f6sb7" path="res://Asset/16x16/tembok .png" id="2_h2yge"]
-[ext_resource type="Shader" uid="uid://cxfdyh3fy5so7" path="res://main.gdshader" id="3_h2yge"]
-[ext_resource type="Texture2D" uid="uid://5fedlk6w15u2" path="res://Asset/GB STUDIO UI ASSET PACK - WYATT199X /frames/LIGHT BG/light frame 02.png" id="5_272bh"]
-[ext_resource type="Texture2D" uid="uid://bnxhhr6uwvqvy" path="res://Asset/Light/32x32 textures (24).png" id="5_kek77"]
-[ext_resource type="Texture2D" uid="uid://b4natvqta4yw" path="res://Asset/GB STUDIO UI ASSET PACK - WYATT199X /frames/MED BG/med frame  04.png" id="5_lquwl"]
-[ext_resource type="Script" uid="uid://c74kwicycurhj" path="res://Skrip/light_flicker.gd" id="6_4c57u"]
-[ext_resource type="FontFile" uid="uid://bgj0m7o0vpyqi" path="res://Asset/Font/BPdots/BPdotsSquareBold.otf" id="6_272bh"]
-[ext_resource type="FontFile" uid="uid://chwlq44grmdae" path="res://Asset/Font/BPdots/BPdotsUnicaseSquareBold.otf" id="6_d13ii"]
-[ext_resource type="Texture2D" uid="uid://di84q84ys3cwo" path="res://Asset/16x16/Pintu.png" id="9_2cqfq"]
-[ext_resource type="Texture2D" uid="uid://d16yjqcii1ham" path="res://Asset/16x16/cabinets_LRK.png" id="9_w48qg"]
-[ext_resource type="Texture2D" uid="uid://kmhp2bbs42o5" path="res://Asset/16x16/decorations_LRK.png" id="10_vivmo"]
-[ext_resource type="Texture2D" uid="uid://dd4mvqymm0jw" path="res://Asset/Icons/Sprite-0001.png" id="11_ryguw"]
-[ext_resource type="SpriteFrames" uid="uid://8mles5a0pyxe" path="res://Animation/Luffy.tres" id="11_yaehf"]
-[ext_resource type="PackedScene" uid="uid://cy21ylw8dolib" path="res://Char_Sccene/aster.tscn" id="12_074og"]
-[ext_resource type="Texture2D" uid="uid://y0wo57kf1025" path="res://Asset/16x16/Kasur.png" id="12_w48qg"]
-[ext_resource type="Texture2D" uid="uid://dguns32v1n32a" path="res://Asset/16x16/keyboardd.png" id="13_2cqfq"]
-[ext_resource type="Texture2D" uid="uid://cigk8qiss1pfi" path="res://Asset/16x16/livingroom_LRK.png" id="13_074og"]
-[ext_resource type="Script" uid="uid://duibmdc3yb24b" path="res://Skrip/character_body_2d.gd" id="13_vivmo"]
-[ext_resource type="Texture2D" uid="uid://jwv22wmx3hkk" path="res://Asset/16x16/Bantal.png" id="17_yaehf"]
-[ext_resource type="Script" uid="uid://bm2r0v4knw7y6" path="res://Skrip/dialog_manager.gd" id="19_cegan"]
-[ext_resource type="Script" uid="uid://chpqv5sfeuug0" path="res://Skrip/cutscene_controller.gd" id="20_82xsv"]
+[ext_resource type="Texture2D" uid="uid://bnxhhr6uwvqvy" path="res://Asset/Light/32x32 textures (24).png" id="1_bkhwi"]
+[ext_resource type="Script" uid="uid://dvfqruyktsu8d" path="res://Skrip/scene_transisi.gd" id="1_hrugb"]
+[ext_resource type="Script" uid="uid://c74kwicycurhj" path="res://Skrip/light_flicker.gd" id="2_qx1o2"]
+[ext_resource type="Texture2D" uid="uid://dqer4k5vw8d8a" path="res://Asset/16x16/3_Props_and_Buildings_16x16.png" id="4_02iv4"]
+[ext_resource type="Texture2D" uid="uid://dqku7at6f6sb7" path="res://Asset/16x16/tembok .png" id="5_tsonk"]
+[ext_resource type="Texture2D" uid="uid://di84q84ys3cwo" path="res://Asset/16x16/Pintu.png" id="6_yndua"]
+[ext_resource type="Texture2D" uid="uid://d16yjqcii1ham" path="res://Asset/16x16/cabinets_LRK.png" id="9_exvih"]
+[ext_resource type="Texture2D" uid="uid://dr648dlwld0v1" path="res://Asset/16x16/New Piskel.png" id="10_jime5"]
+[ext_resource type="Texture2D" uid="uid://kmhp2bbs42o5" path="res://Asset/16x16/decorations_LRK.png" id="10_o57ar"]
+[ext_resource type="Texture2D" uid="uid://cigk8qiss1pfi" path="res://Asset/16x16/livingroom_LRK.png" id="11_7w3nu"]
+[ext_resource type="Texture2D" uid="uid://y0wo57kf1025" path="res://Asset/16x16/Kasur.png" id="12_8d77g"]
+[ext_resource type="Texture2D" uid="uid://dguns32v1n32a" path="res://Asset/16x16/keyboardd.png" id="13_ivep8"]
+[ext_resource type="Script" uid="uid://dfnkce773f2ar" path="res://Skrip/StoryLabel.gd" id="14_0q3fq"]
+[ext_resource type="Texture2D" uid="uid://jwv22wmx3hkk" path="res://Asset/16x16/Bantal.png" id="14_v6aun"]
+[ext_resource type="Resource" uid="uid://snqum8koiqul" path="res://Res/Start.tres" id="16_hrugb"]
+[ext_resource type="FontFile" uid="uid://bgj0m7o0vpyqi" path="res://Asset/Font/BPdots/BPdotsSquareBold.otf" id="16_qx1o2"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_1bvp3"]
-shader = ExtResource("3_h2yge")
-shader_parameter/virtual_resolution = Vector2(160, 144)
-shader_parameter/color_levels = 16.0
-shader_parameter/contrast = 2.2
-shader_parameter/saturation = 1.12
-shader_parameter/brightness = -0.05
-shader_parameter/dither_strength = 0.15
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d13ii"]
-content_margin_left = 4.0
-content_margin_top = 4.0
-content_margin_right = 4.0
-content_margin_bottom = 4.0
-bg_color = Color(0.1882353, 0.40784314, 0.3137255, 1)
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color(0.9428228, 0.94282264, 0.94282264, 1)
-corner_radius_top_left = 3
-corner_radius_top_right = 3
-corner_radius_bottom_right = 3
-corner_radius_bottom_left = 3
-corner_detail = 5
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_82xsv"]
-radius = 4.0
-height = 12.0
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
-texture = ExtResource("1_0xm2m")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ljas1"]
+texture = ExtResource("4_02iv4")
 0:33/0 = 0
 1:33/0 = 0
 2:33/0 = 0
@@ -1962,11 +1925,11 @@ texture = ExtResource("1_0xm2m")
 22:139/0 = 0
 23:139/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_7dm0k"]
-sources/1 = SubResource("TileSetAtlasSource_1bvp3")
+[sub_resource type="TileSet" id="TileSet_eqq8a"]
+sources/1 = SubResource("TileSetAtlasSource_ljas1")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
-texture = ExtResource("2_h2yge")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vlna0"]
+texture = ExtResource("5_tsonk")
 1:0/0 = 0
 1:0/0/z_index = -1
 1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -1983,18 +1946,19 @@ texture = ExtResource("2_h2yge")
 4:0/0/z_index = -1
 4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_getpj"]
-texture = ExtResource("9_2cqfq")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pw6a6"]
+texture = ExtResource("6_yndua")
 0:0/0 = 0
 0:0/0/z_index = -1
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-[sub_resource type="TileSet" id="TileSet_272bh"]
+[sub_resource type="TileSet" id="TileSet_pt1ww"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_7mycd")
-sources/1 = SubResource("TileSetAtlasSource_getpj")
+sources/0 = SubResource("TileSetAtlasSource_vlna0")
+sources/1 = SubResource("TileSetAtlasSource_pw6a6")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cegan"]
-texture = ExtResource("9_w48qg")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l5wjg"]
+texture = ExtResource("9_exvih")
 9:1/0 = 0
 9:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 13:1/0 = 0
@@ -2424,8 +2388,8 @@ texture = ExtResource("9_w48qg")
 38:23/0 = 0
 39:23/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_82xsv"]
-texture = ExtResource("10_vivmo")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4fdt2"]
+texture = ExtResource("10_o57ar")
 3:0/0 = 0
 1:1/0 = 0
 3:1/0 = 0
@@ -2466,8 +2430,8 @@ texture = ExtResource("10_vivmo")
 5:8/0 = 0
 10:8/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d13ii"]
-texture = ExtResource("13_074og")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qf2a1"]
+texture = ExtResource("11_7w3nu")
 9:1/0 = 0
 10:1/0 = 0
 12:1/0 = 0
@@ -2611,7 +2575,6 @@ texture = ExtResource("13_074og")
 12:9/0 = 0
 13:9/0 = 0
 14:9/0 = 0
-14:9/0/z_index = -2
 14:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 16:9/0 = 0
 22:9/0 = 0
@@ -2638,7 +2601,6 @@ texture = ExtResource("13_074og")
 12:10/0 = 0
 13:10/0 = 0
 14:10/0 = 0
-14:10/0/z_index = -2
 14:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 16:10/0 = 0
 18:10/0 = 0
@@ -2867,8 +2829,8 @@ texture = ExtResource("13_074og")
 23:24/0 = 0
 24:24/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2cqfq"]
-texture = ExtResource("12_w48qg")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_87d8v"]
+texture = ExtResource("12_8d77g")
 0:0/0 = 0
 0:0/0/z_index = -1
 1:0/0 = 0
@@ -2886,15 +2848,15 @@ texture = ExtResource("12_w48qg")
 3:1/0 = 0
 3:1/0/z_index = -1
 
-[sub_resource type="TileSet" id="TileSet_efxa6"]
+[sub_resource type="TileSet" id="TileSet_hs8ey"]
 physics_layer_0/collision_layer = 1
-sources/2 = SubResource("TileSetAtlasSource_cegan")
-sources/3 = SubResource("TileSetAtlasSource_82xsv")
-sources/6 = SubResource("TileSetAtlasSource_d13ii")
-sources/7 = SubResource("TileSetAtlasSource_2cqfq")
+sources/2 = SubResource("TileSetAtlasSource_l5wjg")
+sources/3 = SubResource("TileSetAtlasSource_4fdt2")
+sources/6 = SubResource("TileSetAtlasSource_qf2a1")
+sources/7 = SubResource("TileSetAtlasSource_87d8v")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yaehf"]
-texture = ExtResource("13_074og")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nspnq"]
+texture = ExtResource("11_7w3nu")
 9:1/0 = 0
 10:1/0 = 0
 12:1/0 = 0
@@ -3284,198 +3246,232 @@ texture = ExtResource("13_074og")
 23:24/0 = 0
 24:24/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_074og"]
-texture = ExtResource("13_2cqfq")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kj3qe"]
+texture = ExtResource("13_ivep8")
 0:0/0 = 0
 0:1/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ryguw"]
-texture = ExtResource("17_yaehf")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7sehu"]
+texture = ExtResource("14_v6aun")
 0:0/0 = 0
 0:0/0/z_index = -1
 0:1/0 = 0
 0:1/0/z_index = -1
 
-[sub_resource type="TileSet" id="TileSet_cegan"]
-sources/0 = SubResource("TileSetAtlasSource_yaehf")
-sources/1 = SubResource("TileSetAtlasSource_074og")
-sources/2 = SubResource("TileSetAtlasSource_ryguw")
+[sub_resource type="TileSet" id="TileSet_vyg5x"]
+sources/0 = SubResource("TileSetAtlasSource_nspnq")
+sources/1 = SubResource("TileSetAtlasSource_kj3qe")
+sources/2 = SubResource("TileSetAtlasSource_7sehu")
 
-[node name="Start" type="Node2D" unique_id=989473248]
-script = ExtResource("1_getpj")
+[sub_resource type="AtlasTexture" id="AtlasTexture_0q3fq"]
+atlas = ExtResource("10_jime5")
+region = Rect2(0, 0, 16, 32)
 
-[node name="Shader" type="CanvasLayer" parent="." unique_id=473385134]
+[sub_resource type="AtlasTexture" id="AtlasTexture_bkhwi"]
+atlas = ExtResource("10_jime5")
+region = Rect2(16, 0, 16, 32)
 
-[node name="ColorRect" type="ColorRect" parent="Shader" unique_id=1156957796]
-material = SubResource("ShaderMaterial_1bvp3")
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-mouse_filter = 2
+[sub_resource type="AtlasTexture" id="AtlasTexture_qx1o2"]
+atlas = ExtResource("10_jime5")
+region = Rect2(32, 0, 16, 32)
 
-[node name="ui" type="CanvasLayer" parent="." unique_id=2082686312]
+[sub_resource type="AtlasTexture" id="AtlasTexture_hrugb"]
+atlas = ExtResource("10_jime5")
+region = Rect2(0, 32, 16, 32)
 
-[node name="ColorRect" type="ColorRect" parent="ui" unique_id=24877830]
-visible = false
-material = SubResource("ShaderMaterial_1bvp3")
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-mouse_filter = 2
+[sub_resource type="SpriteFrames" id="SpriteFrames_02iv4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0q3fq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bkhwi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qx1o2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hrugb")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 24.0
+}]
 
-[node name="Dialog" type="Control" parent="ui" unique_id=1429611831]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[sub_resource type="CircleShape2D" id="CircleShape2D_hreuj"]
+radius = 9.0
 
-[node name="Isi" type="NinePatchRect" parent="ui/Dialog" unique_id=974879213]
-layout_mode = 0
-offset_left = 12.0
-offset_top = 214.0
-offset_right = 312.0
-offset_bottom = 282.0
-texture = ExtResource("5_lquwl")
-patch_margin_left = 21
-patch_margin_top = 21
-patch_margin_right = 21
-patch_margin_bottom = 21
+[sub_resource type="Shader" id="Shader_qx1o2"]
+code = "shader_type canvas_item;
+render_mode unshaded;
 
-[node name="dialog_txt" type="Label" parent="ui/Dialog/Isi" unique_id=668763061]
-layout_mode = 0
-offset_left = 12.0
-offset_top = 17.0
-offset_right = 289.0
-offset_bottom = 56.0
-theme_override_fonts/font = ExtResource("6_272bh")
-theme_override_font_sizes/font_size = 10
-text = "Udah tiga hari yang lalu. Naik bus angkut barang, hari Kamis. Kamu?"
-autowrap_mode = 2
+uniform sampler2D screen_texture :
+	hint_screen_texture,
+	repeat_disable,
+	filter_linear;
 
-[node name="Name" type="NinePatchRect" parent="ui/Dialog" unique_id=494402006]
-layout_mode = 0
-offset_left = 5.0
-offset_top = 204.0
-offset_right = 114.0
-offset_bottom = 226.0
-texture = ExtResource("5_272bh")
-patch_margin_left = 1
-patch_margin_top = 1
-patch_margin_right = 1
-patch_margin_bottom = 1
+uniform vec2 screen_resolution = vec2(320.0, 288.0);
 
-[node name="name" type="Label" parent="ui/Dialog/Name" unique_id=2089284116]
-layout_mode = 0
-offset_left = 14.0
-offset_top = 4.0
-offset_right = 90.0
-offset_bottom = 19.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("6_272bh")
-theme_override_font_sizes/font_size = 16
-text = "Aster"
-horizontal_alignment = 1
-vertical_alignment = 1
-autowrap_mode = 1
+uniform float brightness = 0.02;
+uniform float contrast = 1.08;
+uniform float saturation = 1.12;
 
-[node name="Container" type="VBoxContainer" parent="ui/Dialog" unique_id=1653675699]
-layout_mode = 0
-offset_left = 107.0
-offset_top = 230.0
-offset_right = 221.0
-offset_bottom = 270.0
+uniform vec3 shadow_tint = vec3(0.96, 0.98, 1.04);
+uniform vec3 highlight_tint = vec3(1.05, 1.02, 0.96);
 
-[node name="Button" type="Button" parent="ui/Dialog/Container" unique_id=596041722]
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_d13ii")
-theme_override_font_sizes/font_size = 10
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
-text = "pilih"
-icon_alignment = 1
+uniform float vignette_strength = 0.18;
+uniform float vignette_softness = 0.75;
 
-[node name="Button2" type="Button" parent="ui/Dialog/Container" unique_id=1502523289]
-layout_mode = 2
-size_flags_vertical = 3
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_d13ii")
-theme_override_font_sizes/font_size = 10
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
-text = "pilih"
+uniform float grain_strength = 0.018;
+uniform float chromatic_strength = 0.45;
+uniform float sharpen_strength = 0.18;
 
-[node name="world" type="Node2D" parent="." unique_id=645533012]
 
-[node name="PointLight2D" type="PointLight2D" parent="world" unique_id=1111579379]
+float random_noise(vec2 uv) {
+	return fract(sin(dot(uv, vec2(12.9898, 78.233))) * 43758.5453);
+}
+
+
+vec3 apply_saturation(vec3 col, float amount) {
+	float gray = dot(col, vec3(0.299, 0.587, 0.114));
+	return mix(vec3(gray), col, amount);
+}
+
+
+vec3 apply_sharpen(vec2 uv, vec3 col) {
+	vec2 texel = 1.0 / screen_resolution;
+
+	vec3 up = texture(screen_texture, uv + vec2(0.0, -texel.y)).rgb;
+	vec3 down = texture(screen_texture, uv + vec2(0.0, texel.y)).rgb;
+	vec3 left = texture(screen_texture, uv + vec2(-texel.x, 0.0)).rgb;
+	vec3 right = texture(screen_texture, uv + vec2(texel.x, 0.0)).rgb;
+
+	vec3 blur = (up + down + left + right) * 0.25;
+	return mix(col, col + (col - blur), sharpen_strength);
+}
+
+
+void fragment() {
+	vec2 uv = SCREEN_UV;
+	vec2 center_uv = uv - 0.5;
+
+	vec2 chroma_offset = center_uv * chromatic_strength / screen_resolution;
+
+	float r = texture(screen_texture, uv + chroma_offset).r;
+	float g = texture(screen_texture, uv).g;
+	float b = texture(screen_texture, uv - chroma_offset).b;
+
+	vec3 col = vec3(r, g, b);
+
+	col = apply_sharpen(uv, col);
+
+	col += brightness;
+	col = (col - 0.5) * contrast + 0.5;
+	col = apply_saturation(col, saturation);
+
+	float luminance = dot(col, vec3(0.299, 0.587, 0.114));
+	vec3 tint = mix(shadow_tint, highlight_tint, luminance);
+	col *= tint;
+
+	float dist = distance(uv, vec2(0.5));
+	float vignette = smoothstep(vignette_softness, vignette_softness - vignette_strength, dist);
+	col *= vignette;
+
+	float grain = random_noise(uv * screen_resolution + TIME * 60.0);
+	col += (grain - 0.5) * grain_strength;
+
+	col = clamp(col, 0.0, 1.0);
+
+	COLOR = vec4(col, 1.0);
+}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_hrugb"]
+shader = SubResource("Shader_qx1o2")
+shader_parameter/screen_resolution = Vector2(320, 288)
+shader_parameter/brightness = -0.05
+shader_parameter/contrast = 2.2
+shader_parameter/saturation = 1.12
+shader_parameter/shadow_tint = Vector3(0.96, 0.98, 1.04)
+shader_parameter/highlight_tint = Vector3(1.05, 1.02, 0.96)
+shader_parameter/vignette_strength = 0.18
+shader_parameter/vignette_softness = 0.75
+shader_parameter/grain_strength = 0.018
+shader_parameter/chromatic_strength = 0.45
+shader_parameter/sharpen_strength = 0.18
+
+[node name="scene_transisi" type="Node2D" unique_id=774046672]
+script = ExtResource("1_hrugb")
+next_scene_path = "uid://d3ad4hlmf1s2p"
+transition_duration = 2.0
+
+[node name="world" type="Node2D" parent="." unique_id=130680553]
+
+[node name="PointLight2D" type="PointLight2D" parent="world" unique_id=697084905]
 position = Vector2(-19.999985, -82)
 scale = Vector2(6.9062495, 6.9062495)
 color = Color(0.8879595, 0.90798235, 0.8995706, 1)
 energy = 0.5
-texture = ExtResource("5_kek77")
-script = ExtResource("6_4c57u")
+texture = ExtResource("1_bkhwi")
+script = ExtResource("2_qx1o2")
 
-[node name="Aster" parent="world" unique_id=2028568727 instance=ExtResource("12_074og")]
-position = Vector2(3, -29)
-
-[node name="Luffy" type="CharacterBody2D" parent="world" unique_id=1170132420]
-position = Vector2(-341, 126)
-script = ExtResource("13_vivmo")
-
-[node name="Camera2D" type="Camera2D" parent="world/Luffy" unique_id=44189661]
-position = Vector2(-16, -8)
-zoom = Vector2(2, 2)
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="world/Luffy" unique_id=1693420733]
-sprite_frames = ExtResource("11_yaehf")
-animation = &"Idle_Bootom"
-autoplay = "Idle_Bootom"
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="world/Luffy" unique_id=1035462161]
-position = Vector2(0, 4)
-shape = SubResource("CapsuleShape2D_82xsv")
-
-[node name="alert" type="Sprite2D" parent="world/Luffy" unique_id=326242234]
-visible = false
-position = Vector2(0, -16)
-texture = ExtResource("11_ryguw")
-
-[node name="layer" type="Node" parent="world" unique_id=2018848747]
-
-[node name="Layer_Bawah" type="TileMapLayer" parent="world/layer" unique_id=1762034907]
+[node name="Layer_Bawah" type="TileMapLayer" parent="world" unique_id=528079121]
 z_index = -2
-tile_map_data = PackedByteArray("AAD8//z/AQAXAEcAAAD8//3/AQAXAEgAAAD8//7/AQAXAEYAAAD8////AQAXAEcAAAD9//z/AQAYAEcAAAD9//3/AQAYAEgAAAD9//7/AQAYAEYAAAD9////AQAYAEcAAAD+//z/AQAZAEcAAAD+//3/AQAZAEgAAAD+//7/AQAZAEYAAAD+////AQAZAEcAAAD///z/AQAaAEcAAAD///3/AQAaAEgAAAD///7/AQAaAEYAAAD/////AQAaAEcAAAAAAPz/AQAbAEcAAAAAAP3/AQAbAEgAAAAAAP7/AQAbAEYAAAAAAP//AQAbAEcAAAABAPz/AQAcAEcAAAABAP3/AQAcAEgAAAABAP7/AQAcAEYAAAABAP//AQAcAEcAAAACAPz/AQAUAEcAAAACAP3/AQAUAEgAAAACAP7/AQAUAEYAAAACAP//AQAUAEcAAAADAPz/AQAVAEcAAAADAP3/AQAVAEgAAAADAP7/AQAVAEYAAAADAP//AQAVAEcAAAD8/wAAAQAXAEgAAAD8/wEAAQAXAEYAAAD8/wIAAQAXAEcAAAD8/wMAAQAXAEgAAAD9/wAAAQAYAEgAAAD9/wEAAQAYAEYAAAD9/wIAAQAYAEcAAAD9/wMAAQAYAEgAAAD+/wAAAQAZAEgAAAD+/wEAAQAZAEYAAAD+/wIAAQAZAEcAAAD+/wMAAQAZAEgAAAD//wAAAQAaAEgAAAD//wEAAQAaAEYAAAD//wIAAQAaAEcAAAD//wMAAQAaAEgAAAAAAAAAAQAbAEgAAAAAAAEAAQAbAEYAAAAAAAIAAQAbAEcAAAAAAAMAAQAbAEgAAAABAAAAAQAcAEgAAAABAAEAAQAcAEYAAAABAAIAAQAcAEcAAAABAAMAAQAcAEgAAAACAAAAAQAUAEgAAAACAAEAAQAUAEYAAAACAAIAAQAUAEcAAAACAAMAAQAUAEgAAAADAAAAAQAVAEgAAAADAAEAAQAVAEYAAAADAAIAAQAVAEcAAAADAAMAAQAVAEgAAAD8/wQAAQAXAEYAAAD9/wQAAQAYAEYAAAD+/wQAAQAZAEYAAAD//wQAAQAaAEYAAAAAAAQAAQAbAEYAAAABAAQAAQAcAEYAAAACAAQAAQAUAEYAAAADAAQAAQAVAEYAAAAEAPz/AQAWAEcAAAAEAP3/AQAWAEgAAAAEAP7/AQAWAEYAAAAEAP//AQAWAEcAAAAEAAAAAQAWAEgAAAAEAAEAAQAWAEYAAAAEAAIAAQAWAEcAAAAEAAMAAQAWAEgAAAAEAAQAAQAWAEYAAAD8//n/AQAXAEcAAAD8//r/AQAXAEgAAAD8//v/AQAXAEYAAAD9//n/AQAYAEcAAAD9//r/AQAYAEgAAAD9//v/AQAYAEYAAAD+//n/AQAZAEcAAAD+//r/AQAZAEgAAAD+//v/AQAZAEYAAAD///n/AQAaAEcAAAD///r/AQAaAEgAAAD///v/AQAaAEYAAAAAAPn/AQAbAEcAAAAAAPr/AQAbAEgAAAAAAPv/AQAbAEYAAAABAPn/AQAcAEcAAAABAPr/AQAcAEgAAAABAPv/AQAcAEYAAAACAPn/AQAUAEcAAAACAPr/AQAUAEgAAAACAPv/AQAUAEYAAAADAPn/AQAVAEcAAAADAPr/AQAVAEgAAAADAPv/AQAVAEYAAAAEAPn/AQAWAEcAAAAEAPr/AQAWAEgAAAAEAPv/AQAWAEYAAAD8//b/AQAXAEcAAAD8//f/AQAXAEgAAAD8//j/AQAXAEYAAAD9//b/AQAYAEcAAAD9//f/AQAYAEgAAAD9//j/AQAYAEYAAAD+//b/AQAZAEcAAAD+//f/AQAZAEgAAAD+//j/AQAZAEYAAAD///b/AQAaAEcAAAD///f/AQAaAEgAAAD///j/AQAaAEYAAAAAAPb/AQAbAEcAAAAAAPf/AQAbAEgAAAAAAPj/AQAbAEYAAAABAPb/AQAcAEcAAAABAPf/AQAcAEgAAAABAPj/AQAcAEYAAAACAPb/AQAUAEcAAAACAPf/AQAUAEgAAAACAPj/AQAUAEYAAAADAPb/AQAVAEcAAAADAPf/AQAVAEgAAAADAPj/AQAVAEYAAAAEAPb/AQAWAEcAAAAEAPf/AQAWAEgAAAAEAPj/AQAWAEYAAAD8//T/AQAYAEYAAAD8//X/AQAYAEcAAAD9//T/AQAZAEYAAAD9//X/AQAZAEcAAAD+//T/AQAWAEYAAAD+//X/AQAZAEYAAAD///T/AQAXAEYAAAD///X/AQAaAEYAAAAAAPT/AQAYAEYAAAAAAPX/AQAbAEYAAAABAPT/AQAZAEYAAAABAPX/AQAcAEYAAAACAPT/AQAaAEYAAAACAPX/AQAUAEYAAAADAPT/AQAbAEYAAAADAPX/AQAVAEYAAAAEAPT/AQAcAEYAAAAEAPX/AQAWAEYAAAD5//X/AQAVAEcAAAD5//b/AQAUAEcAAAD5//f/AQAUAEgAAAD6//X/AQAWAEcAAAD6//b/AQAVAEcAAAD6//f/AQAVAEgAAAD7//X/AQAXAEcAAAD7//b/AQAWAEcAAAD7//f/AQAWAEgAAAD5//j/AQAUAEYAAAD5//n/AQAUAEcAAAD5//r/AQAUAEgAAAD6//j/AQAVAEYAAAD6//n/AQAVAEcAAAD6//r/AQAVAEgAAAD7//j/AQAWAEYAAAD7//n/AQAWAEcAAAD7//r/AQAWAEgAAAD5//v/AQAUAEYAAAD5//z/AQAUAEcAAAD5//3/AQAUAEgAAAD6//v/AQAVAEYAAAD6//z/AQAVAEcAAAD6//3/AQAVAEgAAAD7//v/AQAWAEYAAAD7//z/AQAWAEcAAAD7//3/AQAWAEgAAAD5//7/AQAUAEYAAAD5////AQAUAEcAAAD5/wAAAQAUAEgAAAD6//7/AQAVAEYAAAD6////AQAVAEcAAAD6/wAAAQAVAEgAAAD7//7/AQAWAEYAAAD7////AQAWAEcAAAD7/wAAAQAWAEgAAAD5/wEAAQAUAEYAAAD5/wIAAQAUAEcAAAD5/wMAAQAUAEgAAAD6/wEAAQAVAEYAAAD6/wIAAQAVAEcAAAD6/wMAAQAVAEgAAAD7/wEAAQAWAEYAAAD7/wIAAQAWAEcAAAD7/wMAAQAWAEgAAAD5/wQAAQAUAEYAAAD6/wQAAQAVAEYAAAD7/wQAAQAWAEYAAAD5//T/AQAVAEYAAAD6//T/AQAWAEYAAAD7//T/AQAXAEYAAAD4/wYAAQAVAEsAAAD4/wcAAQAVAEwAAAD4/wgAAQAVAE0AAAD4/wkAAQAVAE4AAAD5/wYAAQAWAEsAAAD5/wcAAQAWAEwAAAD5/wgAAQAWAE0AAAD5/wkAAQAWAE4AAAD6/wYAAQAXAEsAAAD6/wcAAQAXAEwAAAD6/wgAAQAXAE0AAAD6/wkAAQAXAE4AAAD7/wYAAQAYAEsAAAD7/wcAAQAYAEwAAAD7/wgAAQAYAE0AAAD7/wkAAQAYAE4AAAD8/wYAAQAZAEsAAAD8/wcAAQAZAEwAAAD8/wgAAQAZAE0AAAD8/wkAAQAZAE4AAAD9/wYAAQAaAEsAAAD9/wcAAQAaAEwAAAD9/wgAAQAaAE0AAAD9/wkAAQAaAE4AAAD+/wYAAQAbAEsAAAD+/wcAAQAbAEwAAAD+/wgAAQAbAE0AAAD+/wkAAQAbAE4AAAD//wYAAQAcAEsAAAD//wcAAQAcAEwAAAD//wgAAQAcAE0AAAD//wkAAQAcAE4AAAAAAAYAAQAdAEsAAAAAAAcAAQAdAEwAAAAAAAgAAQAdAE0AAAAAAAkAAQAdAE4AAAABAAYAAQAUAEsAAAABAAcAAQAUAEwAAAABAAgAAQAUAE0AAAABAAkAAQAUAE4AAAACAAYAAQAVAEsAAAACAAcAAQAVAEwAAAACAAgAAQAVAE0AAAACAAkAAQAVAE4AAAADAAYAAQAWAEsAAAADAAcAAQAWAEwAAAADAAgAAQAWAE0AAAADAAkAAQAWAE4AAAAEAAYAAQAXAEsAAAAEAAcAAQAXAEwAAAAEAAgAAQAXAE0AAAAEAAkAAQAXAE4AAAAFAAYAAQAYAEsAAAAFAAcAAQAYAEwAAAAFAAgAAQAYAE0AAAAFAAkAAQAYAE4AAAAGAAYAAQAZAEsAAAAGAAcAAQAZAEwAAAAGAAgAAQAZAE0AAAAGAAkAAQAZAE4AAAAHAAYAAQAaAEsAAAAHAAcAAQAaAEwAAAAHAAgAAQAaAE0AAAAHAAkAAQAaAE4AAAAIAAYAAQAbAEsAAAAIAAcAAQAbAEwAAAAIAAgAAQAbAE0AAAAIAAkAAQAbAE4AAAAJAAYAAQAcAEsAAAAJAAcAAQAcAEwAAAAJAAgAAQAcAE0AAAAJAAkAAQAcAE4AAAAKAAYAAQAdAEsAAAAKAAcAAQAdAEwAAAAKAAgAAQAdAE0AAAAKAAkAAQAdAE4AAAD0/wYAAQAYAEYAAAD0/wcAAQAYAEcAAAD0/wgAAQAYAEgAAAD0/wkAAQAYAEkAAAD1/wYAAQAZAEYAAAD1/wcAAQAZAEcAAAD1/wgAAQAZAEgAAAD1/wkAAQAZAEkAAAD2/wYAAQATAEsAAAD2/wcAAQATAEwAAAD2/wgAAQATAE0AAAD2/wkAAQATAE4AAAD3/wYAAQAUAEsAAAD3/wcAAQAUAEwAAAD3/wgAAQAUAE0AAAD3/wkAAQAUAE4AAADt/wYAAQAYAEYAAADt/wcAAQAYAEcAAADt/wgAAQAYAEgAAADt/wkAAQAYAEkAAADu/wYAAQAZAEYAAADu/wcAAQAZAEcAAADu/wgAAQAZAEgAAADu/wkAAQAZAEkAAADv/wYAAQAYAEYAAADv/wcAAQAYAEcAAADv/wgAAQAYAEgAAADv/wkAAQAYAEkAAADw/wYAAQAZAEYAAADw/wcAAQAZAEcAAADw/wgAAQAZAEgAAADw/wkAAQAZAEkAAADx/wYAAQAVAEYAAADx/wcAAQAVAEcAAADx/wgAAQAVAEgAAADx/wkAAQAVAEkAAADy/wYAAQAWAEYAAADy/wcAAQAWAEcAAADy/wgAAQAWAEgAAADy/wkAAQAWAEkAAADz/wYAAQAXAEYAAADz/wcAAQAXAEcAAADz/wgAAQAXAEgAAADz/wkAAQAXAEkAAADq/wYAAQAVAEYAAADq/wcAAQAVAEcAAADq/wgAAQAVAEgAAADq/wkAAQAVAEkAAADr/wYAAQAWAEYAAADr/wcAAQAWAEcAAADr/wgAAQAWAEgAAADr/wkAAQAWAEkAAADs/wYAAQAXAEYAAADs/wcAAQAXAEcAAADs/wgAAQAXAEgAAADs/wkAAQAXAEkAAADo/wYAAQATAEYAAADo/wcAAQATAEcAAADo/wgAAQATAEgAAADo/wkAAQATAEkAAADp/wYAAQAUAEYAAADp/wcAAQAUAEcAAADp/wgAAQAUAEgAAADp/wkAAQAUAEkAAAA=")
-tile_set = SubResource("TileSet_7dm0k")
+tile_map_data = PackedByteArray("AAD8//z/AQAXAEcAAAD8//3/AQAXAEgAAAD8//7/AQAXAEYAAAD8////AQAXAEcAAAD9//z/AQAYAEcAAAD9//3/AQAYAEgAAAD9//7/AQAYAEYAAAD9////AQAYAEcAAAD+//z/AQAZAEcAAAD+//3/AQAZAEgAAAD+//7/AQAZAEYAAAD+////AQAZAEcAAAD///z/AQAaAEcAAAD///3/AQAaAEgAAAD///7/AQAaAEYAAAD/////AQAaAEcAAAAAAPz/AQAbAEcAAAAAAP3/AQAbAEgAAAAAAP7/AQAbAEYAAAAAAP//AQAbAEcAAAABAPz/AQAcAEcAAAABAP3/AQAcAEgAAAABAP7/AQAcAEYAAAABAP//AQAcAEcAAAACAPz/AQAUAEcAAAACAP3/AQAUAEgAAAACAP7/AQAUAEYAAAACAP//AQAUAEcAAAADAPz/AQAVAEcAAAADAP3/AQAVAEgAAAADAP7/AQAVAEYAAAADAP//AQAVAEcAAAD8/wAAAQAXAEgAAAD8/wEAAQAXAEYAAAD8/wIAAQAXAEcAAAD8/wMAAQAXAEgAAAD9/wAAAQAYAEgAAAD9/wEAAQAYAEYAAAD9/wIAAQAYAEcAAAD9/wMAAQAYAEgAAAD+/wAAAQAZAEgAAAD+/wEAAQAZAEYAAAD+/wIAAQAZAEcAAAD+/wMAAQAZAEgAAAD//wAAAQAaAEgAAAD//wEAAQAaAEYAAAD//wIAAQAaAEcAAAD//wMAAQAaAEgAAAAAAAAAAQAbAEgAAAAAAAEAAQAbAEYAAAAAAAIAAQAbAEcAAAAAAAMAAQAbAEgAAAABAAAAAQAcAEgAAAABAAEAAQAcAEYAAAABAAIAAQAcAEcAAAABAAMAAQAcAEgAAAACAAAAAQAUAEgAAAACAAEAAQAUAEYAAAACAAIAAQAUAEcAAAACAAMAAQAUAEgAAAADAAAAAQAVAEgAAAADAAEAAQAVAEYAAAADAAIAAQAVAEcAAAADAAMAAQAVAEgAAAD8/wQAAQAXAEYAAAD9/wQAAQAYAEYAAAD+/wQAAQAZAEYAAAD//wQAAQAaAEYAAAAAAAQAAQAbAEYAAAABAAQAAQAcAEYAAAACAAQAAQAUAEYAAAADAAQAAQAVAEYAAAAEAPz/AQAWAEcAAAAEAP3/AQAWAEgAAAAEAP7/AQAWAEYAAAAEAP//AQAWAEcAAAAEAAAAAQAWAEgAAAAEAAEAAQAWAEYAAAAEAAIAAQAWAEcAAAAEAAMAAQAWAEgAAAAEAAQAAQAWAEYAAAD8//n/AQAXAEcAAAD8//r/AQAXAEgAAAD8//v/AQAXAEYAAAD9//n/AQAYAEcAAAD9//r/AQAYAEgAAAD9//v/AQAYAEYAAAD+//n/AQAZAEcAAAD+//r/AQAZAEgAAAD+//v/AQAZAEYAAAD///n/AQAaAEcAAAD///r/AQAaAEgAAAD///v/AQAaAEYAAAAAAPn/AQAbAEcAAAAAAPr/AQAbAEgAAAAAAPv/AQAbAEYAAAABAPn/AQAcAEcAAAABAPr/AQAcAEgAAAABAPv/AQAcAEYAAAACAPn/AQAUAEcAAAACAPr/AQAUAEgAAAACAPv/AQAUAEYAAAADAPn/AQAVAEcAAAADAPr/AQAVAEgAAAADAPv/AQAVAEYAAAAEAPn/AQAWAEcAAAAEAPr/AQAWAEgAAAAEAPv/AQAWAEYAAAD8//b/AQAXAEcAAAD8//f/AQAXAEgAAAD8//j/AQAXAEYAAAD9//b/AQAYAEcAAAD9//f/AQAYAEgAAAD9//j/AQAYAEYAAAD+//b/AQAZAEcAAAD+//f/AQAZAEgAAAD+//j/AQAZAEYAAAD///b/AQAaAEcAAAD///f/AQAaAEgAAAD///j/AQAaAEYAAAAAAPb/AQAbAEcAAAAAAPf/AQAbAEgAAAAAAPj/AQAbAEYAAAABAPb/AQAcAEcAAAABAPf/AQAcAEgAAAABAPj/AQAcAEYAAAACAPb/AQAUAEcAAAACAPf/AQAUAEgAAAACAPj/AQAUAEYAAAADAPb/AQAVAEcAAAADAPf/AQAVAEgAAAADAPj/AQAVAEYAAAAEAPb/AQAWAEcAAAAEAPf/AQAWAEgAAAAEAPj/AQAWAEYAAAD8//T/AQAYAEYAAAD8//X/AQAYAEcAAAD9//T/AQAZAEYAAAD9//X/AQAZAEcAAAD+//T/AQAWAEYAAAD+//X/AQAZAEYAAAD///T/AQAXAEYAAAD///X/AQAaAEYAAAAAAPT/AQAYAEYAAAAAAPX/AQAbAEYAAAABAPT/AQAZAEYAAAABAPX/AQAcAEYAAAACAPT/AQAaAEYAAAACAPX/AQAUAEYAAAADAPT/AQAbAEYAAAADAPX/AQAVAEYAAAAEAPT/AQAcAEYAAAAEAPX/AQAWAEYAAAD5//X/AQAVAEcAAAD5//b/AQAUAEcAAAD5//f/AQAUAEgAAAD6//X/AQAWAEcAAAD6//b/AQAVAEcAAAD6//f/AQAVAEgAAAD7//X/AQAXAEcAAAD7//b/AQAWAEcAAAD7//f/AQAWAEgAAAD5//j/AQAUAEYAAAD5//n/AQAUAEcAAAD5//r/AQAUAEgAAAD6//j/AQAVAEYAAAD6//n/AQAVAEcAAAD6//r/AQAVAEgAAAD7//j/AQAWAEYAAAD7//n/AQAWAEcAAAD7//r/AQAWAEgAAAD5//v/AQAUAEYAAAD5//z/AQAUAEcAAAD5//3/AQAUAEgAAAD6//v/AQAVAEYAAAD6//z/AQAVAEcAAAD6//3/AQAVAEgAAAD7//v/AQAWAEYAAAD7//z/AQAWAEcAAAD7//3/AQAWAEgAAAD5//7/AQAUAEYAAAD5////AQAUAEcAAAD5/wAAAQAUAEgAAAD6//7/AQAVAEYAAAD6////AQAVAEcAAAD6/wAAAQAVAEgAAAD7//7/AQAWAEYAAAD7////AQAWAEcAAAD7/wAAAQAWAEgAAAD5/wEAAQAUAEYAAAD5/wIAAQAUAEcAAAD5/wMAAQAUAEgAAAD6/wEAAQAVAEYAAAD6/wIAAQAVAEcAAAD6/wMAAQAVAEgAAAD7/wEAAQAWAEYAAAD7/wIAAQAWAEcAAAD7/wMAAQAWAEgAAAD5/wQAAQAUAEYAAAD6/wQAAQAVAEYAAAD7/wQAAQAWAEYAAAD5//T/AQAVAEYAAAD6//T/AQAWAEYAAAD7//T/AQAXAEYAAAA=")
+tile_set = SubResource("TileSet_eqq8a")
 
-[node name="Tembok" type="TileMapLayer" parent="world/layer" unique_id=32566302]
+[node name="Tembok" type="TileMapLayer" parent="world" unique_id=2097379014]
 tile_map_data = PackedByteArray("AAAFAAUAAAAAAAAAAAAEAAUAAAADAAAAAAADAAUAAAADAAAAAAACAAUAAAADAAAAAAABAAUAAAADAAAAAAAAAAUAAAADAAAAAAD//wUAAAADAAAAAAD+/wUAAAADAAAAAAD9/wUAAAADAAAAAAD8/wUAAAADAAAAAAD5/wUAAAADAAAAAAD4/wUAAAAAAAAAABAFAAQAAAABAAAAAAAFAAMAAAABAAAAAAAFAAIAAAABAAAAAAAFAAEAAAABAAAAAAAFAAAAAAABAAAAAAAFAP//AAABAAAAAAAFAP7/AAABAAAAAAAFAP3/AAABAAAAAAAFAPz/AAABAAAAAAAFAPv/AAABAAAAAAAFAPr/AAABAAAAAAAFAPn/AAABAAAAAAAFAPj/AAABAAAAAAAFAPf/AAABAAAAAAAFAPb/AAABAAAAAAAFAPX/AAABAAAAAAAFAPT/AAABAAAAAAAEAPP/AAACAAAAAAADAPP/AAACAAAAAAACAPP/AAACAAAAAAABAPP/AAACAAAAAAAAAPP/AAACAAAAAAD///P/AAACAAAAAAD+//P/AAACAAAAAAD9//P/AAACAAAAAAD8//P/AAACAAAAAAD7//P/AAACAAAAAAD6//P/AAACAAAAAAD5//P/AAACAAAAAAD4/wQAAAABAAAAABD4/wMAAAABAAAAABD4/wIAAAABAAAAABD4/wEAAAABAAAAABD4/wAAAAABAAAAABD4////AAABAAAAABD4//7/AAABAAAAABD4//3/AAABAAAAABD4//z/AAABAAAAABD4//v/AAABAAAAABD4//r/AAABAAAAABD4//n/AAABAAAAABD4//j/AAABAAAAABD4//f/AAABAAAAABD4//b/AAABAAAAABD4//X/AAABAAAAABD4//T/AAABAAAAABAFAPP/AAAEAAAAAAD4//P/AAAEAAAAABD7/wUAAQAAAAAAAAD6/wUAAQAAAAAAAAA=")
-tile_set = SubResource("TileSet_272bh")
+tile_set = SubResource("TileSet_pt1ww")
 
-[node name="Furnture" type="TileMapLayer" parent="world/layer" unique_id=1104377239]
-tile_map_data = PackedByteArray("AAABAP3/BwAAAAAAAAACAP3/BwABAAAAAAADAP3/BwACAAAAAAAEAPj/AgAJAAEAABAEAPn/AgAJAAIAABAEAPr/AgAJAAMAABAEAPT/AgAJAAEAABAEAPX/AgAJAAIAABAEAPb/AgAJAAMAABD5//r/BgAFAAkAAAD5//v/BgAFAAoAAAD5//z/BgAFAAsAAAD6//r/BgAGAAkAAAD6//v/BgAGAAoAAAD6//z/BgAGAAsAAAD5//7/BgAFAAkAAAD5////BgAFAAoAAAD5/wAABgAFAAsAAAD6//7/BgAGAAkAAAD6////BgAGAAoAAAD6/wAABgAGAAsAAAD7//7/BgAOAAkAAAD7////BgAOAAoAAAD7//r/BgAOAAkAAAD7//v/BgAOAAoAAAABAAAABwAAAAAAAAABAAEABwAAAAEAAAACAAAABwABAAAAAAACAAEABwABAAEAAAADAAAABwACAAAAAAADAAEABwACAAEAAAAEAAAABwADAAAAAAAEAAEABwADAAEAAAABAP7/BwAAAAEAAAACAP7/BwABAAEAAAADAP7/BwACAAEAAAAEAP3/BwADAAAAAAAEAP7/BwADAAEAAAA=")
-tile_set = SubResource("TileSet_efxa6")
+[node name="Furnture" type="TileMapLayer" parent="world" unique_id=1479906994]
+tile_map_data = PackedByteArray("AAABAPz/BgATABUAAAABAP3/BwAAAAAAAAACAPz/BgAUABUAAAACAP3/BwABAAAAAAADAPz/BgAVABUAAAADAP3/BwACAAAAAAAEAPj/AgAJAAEAABAEAPn/AgAJAAIAABAEAPr/AgAJAAMAABAEAPT/AgAJAAEAABAEAPX/AgAJAAIAABAEAPb/AgAJAAMAABD5//r/BgAFAAkAAAD5//v/BgAFAAoAAAD5//z/BgAFAAsAAAD6//r/BgAGAAkAAAD6//v/BgAGAAoAAAD6//z/BgAGAAsAAAD5//7/BgAFAAkAAAD5////BgAFAAoAAAD5/wAABgAFAAsAAAD6//7/BgAGAAkAAAD6////BgAGAAoAAAD6/wAABgAGAAsAAAD7//7/BgAOAAkAAAD7////BgAOAAoAAAD7//r/BgAOAAkAAAD7//v/BgAOAAoAAAABAAAABwAAAAAAAAABAAEABwAAAAEAAAACAAAABwABAAAAAAACAAEABwABAAEAAAADAAAABwACAAAAAAADAAEABwACAAEAAAAEAAAABwADAAAAAAAEAAEABwADAAEAAAABAP7/BwAAAAEAAAACAP7/BwABAAEAAAADAP7/BwACAAEAAAAEAP3/BwADAAAAAAAEAP7/BwADAAEAAAA=")
+tile_set = SubResource("TileSet_hs8ey")
 
-[node name="Bantal" type="TileMapLayer" parent="world/layer" unique_id=1221421754]
+[node name="Bantal" type="TileMapLayer" parent="world" unique_id=257524178]
 position = Vector2(1, 0)
 tile_map_data = PackedByteArray("AAD5//r/AAASABYAAAD5//v/AAASABcAAAD6//r/AQAAAAAAAAD6//v/AQAAAAEAAAAEAAAAAgAAAAAAAAAEAAEAAgAAAAEAAAACAP3/AgAAAAAAAAACAP7/AgAAAAEAAAA=")
-tile_set = SubResource("TileSet_cegan")
+tile_set = SubResource("TileSet_vyg5x")
 
-[node name="dialogmanager" type="Node" parent="." unique_id=343555523]
-script = ExtResource("19_cegan")
+[node name="CharacterBody2D2" type="CharacterBody2D" parent="world" unique_id=2028568727]
+position = Vector2(-72.00001, -89)
+scale = Vector2(1.4, 1.4)
 
-[node name="marker" type="Node2D" parent="." unique_id=705235062]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="world/CharacterBody2D2" unique_id=2140560177]
+sprite_frames = SubResource("SpriteFrames_02iv4")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.9529501
 
-[node name="CutsceneController" type="Node" parent="." unique_id=96127451]
-script = ExtResource("20_82xsv")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="world/CharacterBody2D2" unique_id=914500602]
+shape = SubResource("CircleShape2D_hreuj")
 
-[node name="Luffy titik" type="Node" parent="." unique_id=1679331148]
+[node name="Camera2D" type="Camera2D" parent="world/CharacterBody2D2" unique_id=1441812318]
+zoom = Vector2(2, 2)
 
-[node name="Titik1" type="Marker2D" parent="Luffy titik" unique_id=1583104539]
-position = Vector2(-83, 128)
+[node name="Shader" type="CanvasLayer" parent="." unique_id=992857120]
 
-[node name="Titik2" type="Marker2D" parent="Luffy titik" unique_id=1193002335]
-position = Vector2(-81, 67)
+[node name="ColorRect" type="ColorRect" parent="Shader" unique_id=683402301]
+material = SubResource("ShaderMaterial_hrugb")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="StoryLabel" type="Label" parent="." unique_id=2053701162]
+offset_left = -101.0
+offset_top = -111.0
+offset_right = -11.0
+offset_bottom = 487.0
+theme_override_fonts/font = ExtResource("16_qx1o2")
+theme_override_font_sizes/font_size = 10
+text = "ini dialog"
+autowrap_mode = 2
+script = ExtResource("14_0q3fq")
+story_text = ExtResource("16_hrugb")
+
+[node name="FadeLayer" type="CanvasLayer" parent="." unique_id=2008810017]
+
+[node name="SceneController" type="Node" parent="." unique_id=284634833]
