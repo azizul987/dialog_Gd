@@ -34,23 +34,6 @@ shader_parameter/saturation = 1.12
 shader_parameter/brightness = -0.05
 shader_parameter/dither_strength = 0.15
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d13ii"]
-content_margin_left = 4.0
-content_margin_top = 4.0
-content_margin_right = 4.0
-content_margin_bottom = 4.0
-bg_color = Color(0.1882353, 0.40784314, 0.3137255, 1)
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color(0.9428228, 0.94282264, 0.94282264, 1)
-corner_radius_top_left = 3
-corner_radius_top_right = 3
-corner_radius_bottom_right = 3
-corner_radius_bottom_left = 3
-corner_detail = 5
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_hreuj"]
 radius = 9.0
 
@@ -3389,50 +3372,12 @@ vertical_alignment = 1
 autowrap_mode = 1
 
 [node name="button_Container" type="VBoxContainer" parent="ui/Dialog" unique_id=1653675699]
-layout_direction = 2
 layout_mode = 0
 offset_left = 114.0
 offset_top = 110.0
 offset_right = 228.0
 offset_bottom = 202.0
-alignment = 2
-
-[node name="Button" type="Button" parent="ui/Dialog/button_Container" unique_id=596041722]
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_272bh")
-theme_override_font_sizes/font_size = 12
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
-text = "pilih"
-icon_alignment = 1
-
-[node name="Button3" type="Button" parent="ui/Dialog/button_Container" unique_id=1168243633]
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_272bh")
-theme_override_font_sizes/font_size = 12
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
-text = "pilih"
-icon_alignment = 1
-
-[node name="Button4" type="Button" parent="ui/Dialog/button_Container" unique_id=354995701]
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_272bh")
-theme_override_font_sizes/font_size = 12
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
-text = "pilih"
-icon_alignment = 1
-
-[node name="Button2" type="Button" parent="ui/Dialog/button_Container" unique_id=1502523289]
-texture_filter = 1
-texture_repeat = 1
-layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_272bh")
-theme_override_font_sizes/font_size = 12
-theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
-text = "pilih"
+alignment = 1
 
 [node name="world" type="Node2D" parent="." unique_id=645533012]
 

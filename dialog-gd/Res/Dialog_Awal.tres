@@ -134,19 +134,19 @@ metadata/_custom_type_script = "uid://cslf535jo7e61"
 
 [sub_resource type="Resource" id="Resource_wbm1p"]
 script = ExtResource("2_15pl0")
-text = " Keluar dan Jalan ke Pemukiman"
+text = "Keluar"
 id_selanjutnya = "DiTepiPagar"
 metadata/_custom_type_script = "uid://durvjq1cunkmc"
 
 [sub_resource type="Resource" id="Resource_yo2ss"]
 script = ExtResource("2_15pl0")
-text = "Tetap di Depan Laptop"
+text = "Mager"
 id_selanjutnya = "TetapDiLaptop"
 metadata/_custom_type_script = "uid://durvjq1cunkmc"
 
 [sub_resource type="Resource" id="Resource_bune7"]
 script = ExtResource("2_15pl0")
-text = "Ajak Masak Mie Instan di Kamar"
+text = "Mie Aja"
 id_selanjutnya = "MieInstant"
 metadata/_custom_type_script = "uid://durvjq1cunkmc"
 

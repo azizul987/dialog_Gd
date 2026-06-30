@@ -14,7 +14,7 @@ signal dialog_selesai
 
 @onready var button_container: VBoxContainer = $"../ui/Dialog/button_Container"
 
-
+const PILIHAN__BUTTON = preload("uid://cmmdy22thy3uv")
 var id_awal: String = "start"
 var dialog_aktif: bool = false
 var node_sekarang: node_dialog
@@ -123,5 +123,7 @@ func show_pilihan(Pilihan: Array)->void:
 	print("kwkwwkk")
 	for  child in button_container.get_children():
 		child.queue_free()
-	var jumlah= len(Pilihan)
-	print(jumlah)
+	for opsi in Pilihan:
+		var btn = PILIHAN__BUTTON.instantiate() as Button
+		btn.text=opsi.text
+		button_container.add_child(btn)

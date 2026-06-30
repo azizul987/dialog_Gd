@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cmmdy22thy3uv"]
+
+[ext_resource type="FontFile" uid="uid://bgj0m7o0vpyqi" path="res://Asset/Font/BPdots/BPdotsSquareBold.otf" id="1_d301k"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d13ii"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.1882353, 0.40784314, 0.3137255, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.9428228, 0.94282264, 0.94282264, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[node name="Button" type="Button" unique_id=2077992799]
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_d301k")
+theme_override_font_sizes/font_size = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
+text = "Keluar"
+autowrap_trim_flags = 192
+icon_alignment = 2
