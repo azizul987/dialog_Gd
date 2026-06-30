@@ -52,6 +52,8 @@ func tampilkan_dialog(id_dialog: String) -> void:
 	label_narasi.text = node_sekarang.narasi
 
 	atur_tanda_penutur(node_sekarang.penutur)
+	
+	# Munculkan pilihan jika array pilihan tidak kosong
 	if node_sekarang.pilihan.is_empty() == false:
 		show_pilihan(node_sekarang.pilihan)
 
@@ -69,6 +71,10 @@ func cari_node_dialog(id_dialog: String) -> node_dialog:
 
 func _input(event: InputEvent) -> void:
 	if not dialog_aktif:
+		return
+
+	# PENGAMAN: Jika ada tombol pilihan di layar, matikan fungsi tombol Enter/Spasi
+	if button_container.get_child_count() > 0:
 		return
 
 	if event.is_action_pressed("ui_accept"):
@@ -101,7 +107,7 @@ func atur_tanda_penutur(nama_penutur: String) -> void:
 			ubah_tanda(luffy, true)
 		"aster":
 			ubah_tanda(aster, true)
-		"Cut":
+		"cut":
 			ubah_tanda(cut, true)
 		_:
 			pass
@@ -118,12 +124,33 @@ func ubah_tanda(karakter: Node, tampil: bool) -> void:
 
 	if tanda != null:
 		tanda.visible = tampil
-		
-func show_pilihan(Pilihan: Array)->void:
-	print("kwkwwkk")
-	for  child in button_container.get_children():
+
+
+func show_pilihan(Pilihan: Array) -> void:
+	# Bersihkan tombol lama
+	for child in button_container.get_children():
 		child.queue_free()
+		
+	# Bikin tombol baru dari template scene .tscn
 	for opsi in Pilihan:
 		var btn = PILIHAN__BUTTON.instantiate() as Button
-		btn.text=opsi.text
+		
+		# Ambil teks pilihan dari resource pilihan_dialog kamu
+		btn.text = opsi.text 
+		
+		# Hubungkan sinyal klik dan titipkan id_tujuan milik pilihan tersebut
+		btn.pressed.connect(_on_pilihan_diklik.bind(opsi.id_selanjutnya))
+		
 		button_container.add_child(btn)
+
+
+func _on_pilihan_diklik(id_tujuan_pilihan: String) -> void:
+	# Bersihkan container tombol karena pilihan sudah diambil
+	for child in button_container.get_children():
+		child.queue_free()
+		
+	# Jalankan dialog berikutnya sesuai arah pilihan
+	if id_tujuan_pilihan.is_empty(): 
+		selesai_dialog()
+	else:
+		tampilkan_dialog(id_tujuan_pilihan)

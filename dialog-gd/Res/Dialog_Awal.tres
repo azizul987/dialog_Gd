@@ -135,7 +135,7 @@ metadata/_custom_type_script = "uid://cslf535jo7e61"
 [sub_resource type="Resource" id="Resource_wbm1p"]
 script = ExtResource("2_15pl0")
 text = "Keluar"
-id_selanjutnya = "DiTepiPagar"
+id_selanjutnya = "keluar"
 metadata/_custom_type_script = "uid://durvjq1cunkmc"
 
 [sub_resource type="Resource" id="Resource_yo2ss"]
@@ -146,7 +146,7 @@ metadata/_custom_type_script = "uid://durvjq1cunkmc"
 
 [sub_resource type="Resource" id="Resource_bune7"]
 script = ExtResource("2_15pl0")
-text = "Mie Aja"
+text = "Mie aja"
 id_selanjutnya = "MieInstant"
 metadata/_custom_type_script = "uid://durvjq1cunkmc"
 
@@ -158,7 +158,14 @@ narasi = "Aku menatap layar laptop, lalu melihat mereka berdua."
 pilihan = Array[ExtResource("2_15pl0")]([SubResource("Resource_wbm1p"), SubResource("Resource_yo2ss"), SubResource("Resource_bune7")])
 metadata/_custom_type_script = "uid://cslf535jo7e61"
 
+[sub_resource type="Resource" id="Resource_gm883"]
+script = ExtResource("1_tfngy")
+id = "keluar"
+penutur = "Aster"
+narasi = "Yuk, cari diluar"
+metadata/_custom_type_script = "uid://cslf535jo7e61"
+
 [resource]
 script = ExtResource("3_wa4n8")
-nodes = Array[ExtResource("1_tfngy")]([SubResource("Resource_dmoj3"), SubResource("Resource_vafgg"), SubResource("Resource_ktkp5"), SubResource("Resource_15pl0"), SubResource("Resource_wa4n8"), SubResource("Resource_pberw"), SubResource("Resource_4slod"), SubResource("Resource_j8v5l"), SubResource("Resource_0f20n"), SubResource("Resource_lq4mh"), SubResource("Resource_i4jfa"), SubResource("Resource_i4uvd"), SubResource("Resource_s02vs"), SubResource("Resource_tfngy"), SubResource("Resource_677yn"), SubResource("Resource_n14th"), SubResource("Resource_jliwf"), SubResource("Resource_dokg5")])
+nodes = Array[ExtResource("1_tfngy")]([SubResource("Resource_dmoj3"), SubResource("Resource_vafgg"), SubResource("Resource_ktkp5"), SubResource("Resource_15pl0"), SubResource("Resource_wa4n8"), SubResource("Resource_pberw"), SubResource("Resource_4slod"), SubResource("Resource_j8v5l"), SubResource("Resource_0f20n"), SubResource("Resource_lq4mh"), SubResource("Resource_i4jfa"), SubResource("Resource_i4uvd"), SubResource("Resource_s02vs"), SubResource("Resource_tfngy"), SubResource("Resource_677yn"), SubResource("Resource_n14th"), SubResource("Resource_jliwf"), SubResource("Resource_dokg5"), SubResource("Resource_gm883")])
 metadata/_custom_type_script = "uid://ydtrl6olsflf"
