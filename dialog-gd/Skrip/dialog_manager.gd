@@ -10,6 +10,10 @@ signal dialog_selesai
 
 @onready var luffy: CharacterBody2D = $"../world/Luffy"
 @onready var aster: CharacterBody2D = $"../world/Aster"
+@onready var cut: CharacterBody2D = $"../world/Cut"
+
+@onready var button_container: VBoxContainer = $"../ui/Dialog/button_Container"
+
 
 var id_awal: String = "start"
 var dialog_aktif: bool = false
@@ -48,6 +52,8 @@ func tampilkan_dialog(id_dialog: String) -> void:
 	label_narasi.text = node_sekarang.narasi
 
 	atur_tanda_penutur(node_sekarang.penutur)
+	if node_sekarang.pilihan.is_empty() == false:
+		show_pilihan(node_sekarang.pilihan)
 
 
 func cari_node_dialog(id_dialog: String) -> node_dialog:
@@ -71,12 +77,11 @@ func _input(event: InputEvent) -> void:
 
 func lanjut_dialog() -> void:
 	var id_tujuan: String = node_sekarang.id_selanjutnya.strip_edges()
-
 	if id_tujuan.is_empty():
 		selesai_dialog()
 		return
-
-	tampilkan_dialog(id_tujuan)
+	else:
+		tampilkan_dialog(id_tujuan)
 
 
 func selesai_dialog() -> void:
@@ -94,10 +99,10 @@ func atur_tanda_penutur(nama_penutur: String) -> void:
 	match nama_penutur.strip_edges().to_lower():
 		"luffy":
 			ubah_tanda(luffy, true)
-
 		"aster":
 			ubah_tanda(aster, true)
-
+		"Cut":
+			ubah_tanda(cut, true)
 		_:
 			pass
 
@@ -105,6 +110,7 @@ func atur_tanda_penutur(nama_penutur: String) -> void:
 func sembunyikan_semua_tanda() -> void:
 	ubah_tanda(luffy, false)
 	ubah_tanda(aster, false)
+	ubah_tanda(cut, false)
 
 
 func ubah_tanda(karakter: Node, tampil: bool) -> void:
@@ -112,3 +118,10 @@ func ubah_tanda(karakter: Node, tampil: bool) -> void:
 
 	if tanda != null:
 		tanda.visible = tampil
+		
+func show_pilihan(Pilihan: Array)->void:
+	print("kwkwwkk")
+	for  child in button_container.get_children():
+		child.queue_free()
+	var jumlah= len(Pilihan)
+	print(jumlah)

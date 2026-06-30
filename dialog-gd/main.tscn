@@ -9,7 +9,6 @@
 [ext_resource type="Texture2D" uid="uid://b4natvqta4yw" path="res://Asset/GB STUDIO UI ASSET PACK - WYATT199X /frames/MED BG/med frame  04.png" id="5_lquwl"]
 [ext_resource type="Script" uid="uid://c74kwicycurhj" path="res://Skrip/light_flicker.gd" id="6_4c57u"]
 [ext_resource type="FontFile" uid="uid://bgj0m7o0vpyqi" path="res://Asset/Font/BPdots/BPdotsSquareBold.otf" id="6_272bh"]
-[ext_resource type="FontFile" uid="uid://chwlq44grmdae" path="res://Asset/Font/BPdots/BPdotsUnicaseSquareBold.otf" id="6_d13ii"]
 [ext_resource type="Texture2D" uid="uid://di84q84ys3cwo" path="res://Asset/16x16/Pintu.png" id="9_2cqfq"]
 [ext_resource type="Texture2D" uid="uid://d16yjqcii1ham" path="res://Asset/16x16/cabinets_LRK.png" id="9_w48qg"]
 [ext_resource type="SpriteFrames" uid="uid://bteiq4rqcpass" path="res://Animation/Aster.tres" id="10_1u8w0"]
@@ -17,6 +16,7 @@
 [ext_resource type="Texture2D" uid="uid://dd4mvqymm0jw" path="res://Asset/Icons/Sprite-0001.png" id="11_ryguw"]
 [ext_resource type="SpriteFrames" uid="uid://8mles5a0pyxe" path="res://Animation/Luffy.tres" id="11_yaehf"]
 [ext_resource type="Texture2D" uid="uid://y0wo57kf1025" path="res://Asset/16x16/Kasur.png" id="12_w48qg"]
+[ext_resource type="SpriteFrames" uid="uid://bruydsk0j0xg7" path="res://Asset/Char/cut.tres" id="13_0odxb"]
 [ext_resource type="Texture2D" uid="uid://dguns32v1n32a" path="res://Asset/16x16/keyboardd.png" id="13_2cqfq"]
 [ext_resource type="Texture2D" uid="uid://cigk8qiss1pfi" path="res://Asset/16x16/livingroom_LRK.png" id="13_074og"]
 [ext_resource type="Script" uid="uid://duibmdc3yb24b" path="res://Skrip/character_body_2d.gd" id="13_vivmo"]
@@ -3380,7 +3380,7 @@ offset_left = 14.0
 offset_top = 4.0
 offset_right = 90.0
 offset_bottom = 19.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.1847857, 0.18478566, 0.18478566, 1)
 theme_override_fonts/font = ExtResource("6_272bh")
 theme_override_font_sizes/font_size = 16
 text = "Aster"
@@ -3388,29 +3388,49 @@ horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 1
 
-[node name="Container" type="VBoxContainer" parent="ui/Dialog" unique_id=1653675699]
-visible = false
+[node name="button_Container" type="VBoxContainer" parent="ui/Dialog" unique_id=1653675699]
+layout_direction = 2
 layout_mode = 0
-offset_left = 107.0
-offset_top = 230.0
-offset_right = 221.0
-offset_bottom = 270.0
+offset_left = 114.0
+offset_top = 110.0
+offset_right = 228.0
+offset_bottom = 202.0
+alignment = 2
 
-[node name="Button" type="Button" parent="ui/Dialog/Container" unique_id=596041722]
+[node name="Button" type="Button" parent="ui/Dialog/button_Container" unique_id=596041722]
 layout_mode = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_d13ii")
-theme_override_font_sizes/font_size = 10
+theme_override_fonts/font = ExtResource("6_272bh")
+theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
 text = "pilih"
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="ui/Dialog/Container" unique_id=1502523289]
+[node name="Button3" type="Button" parent="ui/Dialog/button_Container" unique_id=1168243633]
 layout_mode = 2
-size_flags_vertical = 3
 theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_fonts/font = ExtResource("6_d13ii")
-theme_override_font_sizes/font_size = 10
+theme_override_fonts/font = ExtResource("6_272bh")
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
+text = "pilih"
+icon_alignment = 1
+
+[node name="Button4" type="Button" parent="ui/Dialog/button_Container" unique_id=354995701]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("6_272bh")
+theme_override_font_sizes/font_size = 12
+theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
+text = "pilih"
+icon_alignment = 1
+
+[node name="Button2" type="Button" parent="ui/Dialog/button_Container" unique_id=1502523289]
+texture_filter = 1
+texture_repeat = 1
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("6_272bh")
+theme_override_font_sizes/font_size = 12
 theme_override_styles/normal = SubResource("StyleBoxFlat_d13ii")
 text = "pilih"
 
@@ -3462,6 +3482,25 @@ visible = false
 position = Vector2(0, -16)
 texture = ExtResource("11_ryguw")
 
+[node name="Cut" type="CharacterBody2D" parent="world" unique_id=72508788]
+position = Vector2(-74, -27)
+script = ExtResource("13_vivmo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="world/Cut" unique_id=1110610558]
+sprite_frames = ExtResource("13_0odxb")
+animation = &"Sit"
+autoplay = "Sit"
+frame_progress = 0.5968378
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="world/Cut" unique_id=598960200]
+position = Vector2(0, 4)
+shape = SubResource("CapsuleShape2D_82xsv")
+
+[node name="TandaDialog" type="Sprite2D" parent="world/Cut" unique_id=1250246780]
+visible = false
+position = Vector2(0, -16)
+texture = ExtResource("11_ryguw")
+
 [node name="layer" type="Node" parent="world" unique_id=2018848747]
 
 [node name="Layer_Bawah" type="TileMapLayer" parent="world/layer" unique_id=1762034907]
@@ -3497,6 +3536,12 @@ position = Vector2(-83, 128)
 [node name="Titik2" type="Marker2D" parent="Luffy titik" unique_id=1193002335]
 position = Vector2(-81, 67)
 
+[node name="Titik3" type="Marker2D" parent="Luffy titik" unique_id=1176771543]
+position = Vector2(0, -11)
+
+[node name="Titik4" type="Marker2D" parent="Luffy titik" unique_id=318824139]
+position = Vector2(65, -11)
+
 [node name="Aster Node" type="Node" parent="." unique_id=1214973273]
 
 [node name="marker" type="Node2D" parent="Aster Node" unique_id=705235062]
@@ -3504,3 +3549,14 @@ position = Vector2(-34, -56)
 
 [node name="marker2" type="Node2D" parent="Aster Node" unique_id=1536317188]
 position = Vector2(-46, 43)
+
+[node name="marker3" type="Node2D" parent="Aster Node" unique_id=1731351985]
+position = Vector2(-28, -13)
+
+[node name="marker4" type="Node2D" parent="Aster Node" unique_id=894283212]
+position = Vector2(35, -11)
+
+[node name="Cut" type="Node" parent="." unique_id=1100317564]
+
+[node name="titik1" type="Marker2D" parent="Cut" unique_id=310232005]
+position = Vector2(5, -6)

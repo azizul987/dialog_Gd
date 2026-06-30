@@ -12,7 +12,7 @@ var is_walking: bool = false
 func _physics_process(_delta: float) -> void:
 	if not is_walking:
 		velocity = Vector2.ZERO
-		play_idle_animation()
+		
 		return
 
 	var direction: Vector2 = global_position.direction_to(target_position)
