@@ -1,39 +1,59 @@
 extends CharacterBody2D
 
 @export var speed: float = 70.0
-
 @onready var luffy: AnimatedSprite2D = $AnimatedSprite2D
 
 var last_direction: Vector2 = Vector2.DOWN
 var target_position: Vector2 = Vector2.ZERO
-var is_walking: bool = false
+
+# Variabel lama untuk gerak otomatis (cutscene)
+var is_walking: bool = false 
+
+# VARIABEL BARU: Untuk mengunci pemain saat dialog
+var bisa_jalan_manual: bool = true 
 
 
 func _physics_process(_delta: float) -> void:
-	if not is_walking:
-		velocity = Vector2.ZERO
-		
-		return
+	# 1. GERAK OTOMATIS (Cutscene / walk_to) - PRIORITAS UTAMA
+	if is_walking:
+		var direction: Vector2 = global_position.direction_to(target_position)
+		var distance: float = global_position.distance_to(target_position)
 
-	var direction: Vector2 = global_position.direction_to(target_position)
-	var distance: float = global_position.distance_to(target_position)
+		if distance <= 2.0:
+			global_position = target_position
+			velocity = Vector2.ZERO
+			is_walking = false
+			play_idle_animation()
+			return
 
-	if distance <= 2.0:
-		global_position = target_position
+		velocity = direction * speed
+		update_animation(direction)
+		move_and_slide()
+		return # <-- Penting: Kalau lagi cutscene, stop baca kode di bawahnya
+
+	# 2. CEK KUNCI DIALOG: Kalau dikunci, MC/NPC diam (menolak input manual)
+	if not bisa_jalan_manual:
 		velocity = Vector2.ZERO
-		is_walking = false
 		play_idle_animation()
-		return
+		return # <-- Penting: Stop di sini, gak usah baca input keyboard
 
-	velocity = direction * speed
+	# 3. GERAK MANUAL (WASD / Panah)
+	var input_dir: Vector2 = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	
+	if input_dir != Vector2.ZERO:
+		velocity = input_dir * speed
+		update_animation(input_dir)
+	else:
+		velocity = Vector2.ZERO
+		play_idle_animation()
 
-	update_animation(direction)
 	move_and_slide()
-
-
+	
 func walk_to(target: Vector2) -> void:
+	#bisa_jalan_manual = false
 	target_position = target
 	is_walking = true
+	
 
 
 func wait_until_arrived() -> void:

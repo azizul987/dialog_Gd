@@ -163,6 +163,7 @@ script = ExtResource("1_tfngy")
 id = "keluar"
 penutur = "Aster"
 narasi = "Yuk, cari diluar"
+id_selanjutnya = "selesai"
 metadata/_custom_type_script = "uid://cslf535jo7e61"
 
 [resource]

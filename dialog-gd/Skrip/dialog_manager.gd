@@ -28,7 +28,9 @@ func _ready() -> void:
 func mulai_dialog(id_dialog: String = "") -> void:
 	if dialog_aktif:
 		return
-
+	luffy.bisa_jalan_manual=false
+	aster.bisa_jalan_manual=false
+	cut.bisa_jalan_manual=false
 	if id_dialog.is_empty():
 		id_dialog = id_awal
 
@@ -84,20 +86,21 @@ func _input(event: InputEvent) -> void:
 func lanjut_dialog() -> void:
 	var id_tujuan: String = node_sekarang.id_selanjutnya.strip_edges()
 	if id_tujuan.is_empty():
-		selesai_dialog()
-		return
+		selesai_dialog(false)
+	elif id_tujuan=="selesai":
+		selesai_dialog(true)
 	else:
 		tampilkan_dialog(id_tujuan)
 
 
-func selesai_dialog() -> void:
+func selesai_dialog(buka_kunci:bool=true) -> void:
 	dialog_box.hide()
 	dialog_aktif = false
 
 	sembunyikan_semua_tanda()
-
 	dialog_selesai.emit()
-
+	aster.bisa_jalan_manual=buka_kunci
+	print("kawa kawa")
 
 func atur_tanda_penutur(nama_penutur: String) -> void:
 	sembunyikan_semua_tanda()
